@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style/style.css">
+    <title>Translate</title>
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Translate in the eyes of Geometry</h1>
+        <button id="what"><img src="asset/image/what.png"></button>
+        <div class="definition" id="definition">
+            <h4>What is Translate?</h4>
+            <p>Moving Every Point of the shape</p>
+            <ul>
+                <li>Same Distance</li>
+                <li>Same Direction</li>
+            </ul>
+            <img src="asset/image/translate.png">
+            <button id="ok">OK</button>
+
+        </div>
+    </div>
+    <div class="element">
+
+        <section class="propriety">
+            <div class="direction">
+                <h4>Direction</h4>
+                <svg id="angle" class="angle" width="180" height="180">
+                    <g id="angleLine">
+                        <line x1="0" y1="90" x2="180" y2="90" stroke-width="4" stroke="aliceblue" />
+                        <line x1="90" y1="0" x2="90" y2="180" stroke-width="4" stroke="aliceblue" />
+                    </g>
+                    <text id="angleText" x="135" y="20" fill="aliceblue">0&deg</text>
+                    <g id="rotateText">
+                        <text x="165" y="93" font-size="smaller">0&deg</text>
+                        <text x="83" y="20" font-size="smaller">90&deg</text>
+                        <text x="0" y="95" font-size="smaller">180&deg</text>
+                        <text x="83" y="170" font-size="smaller">270&deg</text>
+
+                    </g>
+                    <circle id="angleDraw" cx="90" cy="90" r="0" fill="none" stroke="#274964" stroke-width="5" />
+                    <line x1="90" y1="90" x2="150" y2="90" stroke-width="4" stroke="aliceblue" />
+                    <circle cx="90" cy="90" r="60" fill="none" stroke="aliceblue" stroke-width="6" />
+                    <circle cx="150" cy="90" r="8" fill="#274964" />
+
+                    <g id="handler">
+                        <line x1="90" y1="90" x2="150" y2="90" stroke-width="4" stroke="aliceblue" />
+                        <circle id="direction" cx="150" cy="90" r="9" fill="#274964" />
+                    </g>
+                    <circle cx="90" cy="90" r="6" fill="#274964" />
+                </svg>
+
+                <div class="info">
+                    <label for="dir-value">Direction: </label>
+                    <input id="dir-value" type="number" value="0" min="0" max="360">
+
+                </div>
+            </div>
+
+            <div class="distance">
+                <h4>Distance</h4>
+                <input id="distance-value" clase="slider" type="range" value="50" min="0" max="100" list="tickmarks">
+                <datalist id="distance">
+                    <option value="0" label="0"></option>
+                    <option value="10"></option>
+                    <option value="20" label="20"></option>
+                    <option value="30"></option>
+                    <option value="40" label="40"></option>
+                    <option value="50"></option>
+                    <option value="60" label="60"></option>
+                    <option value="70"></option>
+                    <option value="80" label="80"></option>
+                    <option value="90"></option>
+                    <option value="100" label="100"></option>
+                </datalist>
+            </div>
+
+            <div class="speed">
+                <h4>Speed in Second</h4>
+                <div class="level">
+                    <span id="high">High</span>
+                    <span id="medium">Medium</span>
+                    <span id="slow">Slow</span>
+                </div>
+                <input type="range" id="sec" list="tickmarks">
+                <datalist id="tickmarks">
+                    <option value="0" label="0"></option>
+                    <option value="10"></option>
+                    <option value="20" label="1"></option>
+                    <option value="30"></option>
+                    <option value="40" label="2"></option>
+                    <option value="50"></option>
+                    <option value="60" label="3"></option>
+                    <option value="70"></option>
+                    <option value="80" label="4"></option>
+                    <option value="90"></option>
+                    <option value="100" label="5"></option>
+                </datalist>
+            </div>
+            <div class="play">
+                <img id="play" src="asset/image/play.png" alt="" srcset="">
+            </div>
+
+
+        </section>
+        <section class="moving-Shape">
+            <svg class="axix">
+                <g id="axix-point">
+                    <line x1="50%" y1="0" x2="50%" y2="100%" stroke-width="4" stroke="#274964" />
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke-width="4" stroke="#274964" />
+                </g>
+            </svg>
+            <div class="box" id="out-shape">
+                <div id="shape">
+                    <svg width="30" height="30">
+                        <polygon points="5,5, 25,15, 5,25 " fill="royalblue" />
+                    </svg>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="asset/sourc/script.js">
+
+</script>
+
+</html>
