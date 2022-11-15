@@ -9,7 +9,7 @@ Here is used:
   <a href="https://sukhan220.github.io/ArtamicConceptualFunctionality-/">Demo<a>
 </p>
 
-<video src='translate.mp4' width=500/>
+<video src='translate.mp4' width="500"/>
 
 ###### Translate of geomatrical view without definition. It's An interface that will move the object according to the user's input.
 <p align="center">
