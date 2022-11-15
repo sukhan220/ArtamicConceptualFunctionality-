@@ -6,7 +6,7 @@ Here is used:
 - CSS
 - HTML
 <p>
-  <a href="https://sukhan220.github.io/artamicConceptualFunctionalityTranslate/">Demo<a>
+  <a href="https://sukhan220.github.io/ArtamicConceptualFunctionality-/">Demo<a>
 </p>
 
 ###### Translate of geomatrical view without definition. It's An interface that will move the object according to the user's input.
