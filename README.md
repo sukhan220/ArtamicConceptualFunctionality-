@@ -1,7 +1,7 @@
 # Artamic Conceptual Functionality(Translate)
 A Prototype of the functional behavior of how to Translate an object in a geometrical view.
  
-Here is used:
+used tools:
 - Javascript
 - CSS
 - HTML
